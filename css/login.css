@@ -17,7 +17,7 @@
 
 .conteudo {
   background: #104179;
-  padding: 57px;
+  padding: 50px;
   border: 1px solid #353A47;
   border-radius: 10px;
 }
@@ -38,18 +38,28 @@
   text-align: center;
 }
 
-.input-item {
-  display: block;
-  margin: 0 auto;
+.img1, .img2 {
+  max-width: 40px;
+}
+
+.form-item {
+  margin-top: 28px;
   width: 400px;
   height: 60px;
-  border-radius: 10px;
-  background: #F5F5F5;
-  margin-top: 30px;
-  padding: 18px;
+  padding-left: 8px;
+  background-color: #F5F5F5;
   border: 2px solid #0F57A8;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.input-item {
+  background: transparent;
   font-size: 1.25em;
   font-family: Roboto;
+  border: none;
   letter-spacing: 0.08px;
   outline: none;
 }
@@ -69,4 +79,8 @@
   font-size: 2.25em;
   text-transform: uppercase;
   color: #F1F8FF;
+}
+
+.pai button:hover {
+  background: linear-gradient(180deg, #17304d 0%, #0d2540 100%);
 }
