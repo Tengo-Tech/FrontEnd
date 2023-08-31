@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Rubik', 'Roboto', sans-serif;
+  font-family: "Rubik", "Roboto", sans-serif;
 }
 
 .pai {
@@ -12,25 +12,25 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 .conteudo {
   background: #104179;
   padding: 50px;
-  border: 1px solid #353A47;
+  border: 1px solid #353a47;
   border-radius: 10px;
 }
 
 .titulo {
   font-size: 4em;
-  color: #E0E0E0;
+  color: #e0e0e0;
   font-weight: 300;
   text-align: center;
 }
 
 .pai p {
-  color: #F0F0F0;
+  color: #f0f0f0;
   font-size: 1em;
   font-weight: 400;
   font-family: Roboto;
@@ -38,7 +38,8 @@
   text-align: center;
 }
 
-.img1, .img2 {
+.img1,
+.img2 {
   max-width: 40px;
 }
 
@@ -47,8 +48,8 @@
   width: 400px;
   height: 60px;
   padding-left: 8px;
-  background-color: #F5F5F5;
-  border: 2px solid #0F57A8;
+  background-color: #f5f5f5;
+  border: 2px solid #0f57a8;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -62,6 +63,8 @@
   border: none;
   letter-spacing: 0.08px;
   outline: none;
+  display: inline-block;
+  width: 320px;
 }
 
 .pai button {
@@ -70,7 +73,7 @@
   height: 60px;
   border-radius: 10px;
   text-align: center;
-  background: linear-gradient(180deg, #162A41 0%, #0C1E32 100%);
+  background: linear-gradient(180deg, #162a41 0%, #0c1e32 100%);
   margin-top: 40px;
   border: none;
   font-family: Roboto;
@@ -78,9 +81,12 @@
   letter-spacing: 0.45px;
   font-size: 2.25em;
   text-transform: uppercase;
-  color: #F1F8FF;
+  color: #f1f8ff;
 }
 
 .pai button:hover {
   background: linear-gradient(180deg, #17304d 0%, #0d2540 100%);
+}
+::-ms-reveal {
+  display: none;
 }
