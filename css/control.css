@@ -9,6 +9,14 @@
   text-decoration: none;
 }
 
+body {
+  background: #F5F5F5;
+}
+
+.flex-container {
+  display: flex;
+}
+
 .icon {
   max-width: 100px;
 }
@@ -36,7 +44,6 @@
 .aside {
   background: #F1F8FF;
   width: 200px;
-  position: fixed;
   height: 100vh;
   border-right: 1px solid #92B8E3;
   padding: 15px;
@@ -62,4 +69,34 @@ a {
   font-family: Roboto;
   font-size: 1em;
   font-weight: bold;
+}
+
+.section {
+  width: 80%;
+  padding: 25px 50px;
+}
+
+.titulo-principal {
+  color: #666;
+  font-size: 4em;
+  letter-spacing: -0.96px;
+  font-weight: 400;
+}
+
+.text-preview {
+  font: 2em;
+  font-weight: 400;
+  letter-spacing: 0.08px;
+  margin-top: 100px;
+}
+
+.nuvem {
+  width: 960px;
+  height: 480px;
+  background: #E0E0E0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
