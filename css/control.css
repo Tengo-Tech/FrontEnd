@@ -21,6 +21,7 @@
   padding: 0 20px 0 30px;
   box-shadow: 0px 4px 10px 0px rgba(41, 41, 41, 0.05);
   height: 60px;
+  border-bottom: 1px solid #92B8E3;
 }
 
 .logo {
@@ -38,14 +39,27 @@
   position: fixed;
   height: 100vh;
   border-right: 1px solid #92B8E3;
-  border-top: 1px solid #92B8E3;
-  padding: 20px;
+  padding: 15px;
 }
 
 .list-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.selecionado {
+  background: #CBE3FF;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+a {
+  color: #142334;
+  font-family: Roboto;
+  font-size: 1em;
+  font-weight: bold;
 }
