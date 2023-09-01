@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Roboto", sans-serif;
+}
+
+.icon {
+  max-width: 100px;
+}
+
+.header {
+  background: #F1F8FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 30px;
+  box-shadow: 0px 4px 10px 0px rgba(41, 41, 41, 0.05);
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #92B8E3;
+  padding: 0 30px 0 0;
+  height: 60px;
+}
