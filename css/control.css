@@ -5,6 +5,8 @@
   padding: 0;
   margin: 0;
   font-family: "Rubik", "Roboto", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .icon {
@@ -28,4 +30,22 @@
   border-right: 1px solid #92B8E3;
   padding: 0 30px 0 0;
   height: 60px;
+}
+
+.aside {
+  background: #F1F8FF;
+  width: 200px;
+  position: fixed;
+  height: 100vh;
+  border-right: 1px solid #92B8E3;
+  border-top: 1px solid #92B8E3;
+  padding: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
