@@ -188,3 +188,19 @@
   border-bottom: 1px solid #094488;
   padding-bottom: 5px;
 }
+
+.down-csv {
+  margin: 0 0 25px 25px;
+  justify-self: start;
+  padding: 15px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #6BD376;
+  border: none;
+  color: #fff;
+  font-size: 1.25em;
+  letter-spacing: 0.3px;
+}
