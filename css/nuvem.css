@@ -123,6 +123,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .content img {
@@ -164,4 +165,18 @@
 
 .down-pdf img {
   margin-left: 10px;
+}
+@media  screen and (max-width: 1280px) {
+  .estrutura {
+   
+    grid-template-areas:
+      "header header"
+      "sidenav sidenav"
+      "main main";
+    
+  }
+  
+  .main{
+    display: block;
+  }
 }

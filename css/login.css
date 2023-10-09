@@ -90,3 +90,35 @@
 ::-ms-reveal {
   display: none;
 }
+
+@media screen and (max-width: 420px ){
+   .conteudo{
+    min-width: 200px;
+    padding: 30px 20px 30px 20px;
+   }
+   .form-item{
+    width: 100%;    
+   }
+   .pai button{
+    width: 100%;
+   }
+   .titulo{
+      font-size: 3em;
+   }
+}
+@media screen and (max-width: 394px ){
+   .conteudo{
+    min-width: 100px;
+    padding: 30px 10px 30px 10px;
+   }
+   .form-item{
+    width: 100%;    
+   }
+   .pai button{
+    width: 100%;
+   }
+   .titulo{
+      font-size: 3em;
+   }
+}
+

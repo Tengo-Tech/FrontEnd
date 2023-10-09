@@ -105,12 +105,117 @@
   font-weight: 400;
 }
 
+.main h3 {
+  grid-column: 1;
+  margin: 30px 0 0 30px;
+  color: #525252;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.content {
+  grid-column: 1 / 3;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  background: #E0E0E0;
+  margin: 5px 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content img {
+  margin: 0 auto;
+}
+
+.botao-fullscreen {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  color: #173353;
+  font-family: Roboto;
+  font-size: 0.875em;
+  border-radius: 10px;
+  border: 1px solid #7AA6D9;
+  background: #B0D0F4;
+  padding: 5px;
+  gap: 5px;
+}
+
+.search-city {
+  grid-column: 1 / 2;
+  border-radius: 10px;
+  border: 1px solid #B8B8B8;
+  background: #F0F0F0;
+  box-shadow: 0px 1px 15px 0px rgba(41, 41, 41, 0.10);
+  margin: 30px;
+}
+
+.search-h1 {
+  display: inline-block;
+  color: #292929;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 20px 0 30px 30px;
+}
+
+hr {
+  background: var(--text-color1);
+  max-width: 400px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #F5F5F5;
+  padding: 10px 15px;
+  margin: 30px;
+  border-radius: 10px;
+  border: 2px solid #CCC;
+}
+
+.search-item input {
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+}
+
+.result-word {
+  background: #D9D9D9;
+  margin: 30px;
+  height: 470px;
+  padding: 30px;
+}
+
+.result-word h3 {
+  margin: 0 30px 0 0;
+  border-bottom: 1px solid #7AA6D9;
+}
+
+.search-rs {
+  grid-column: 2 / 3;
+  border-radius: 10px;
+  border: 1px solid #B8B8B8;
+  background: #F0F0F0;
+  box-shadow: 0px 1px 15px 0px rgba(41, 41, 41, 0.10);
+  margin: 30px;
+}
+
 /* Filter */
 
 .filter {
   grid-column: 1 / 3;
   padding: 30px;
-  margin: 30px 30px;
+  margin: 0 30px;
   border-radius: 10px;
   border: 1px solid #B8B8B8;
   background: #F0F0F0;
@@ -189,36 +294,19 @@
   padding-bottom: 5px;
 }
 
-.down-csv {
-  margin: 0 0 25px 25px;
-  justify-self: start;
-  padding: 15px 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 10px;
-  background: #6BD376;
-  border: none;
-  color: #fff;
-  font-size: 1.25em;
-  letter-spacing: 0.3px;
-}
-@media screen and (max-width: 1280px) {
-    .filter-area {
-        width: 90%;
-        height: 370px;
-      }
-    .main{
-       
-        display: block;
-        
-      }
+@media screen and (max-width: 1200px) {
+
+
     .estrutura {
-        
         grid-template-areas:
-          "header header"
-          "sidenav sidenav"
-          "main main";
+          "header"
+          "sidenav"
+          "main";
       }
+    .sidenav{
+         min-width: 1200px;
+    } 
+    .main{
+      min-width: 1200px;
+    }   
 }
