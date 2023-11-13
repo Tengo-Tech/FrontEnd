@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Visão Geral</title>
+</head>
+
+<body>
+  <div class="estrutura">
+    <header class="header">
+      <div class="user">
+        <span class="font-2-m">Silvio Fabian</span>
+        <img src="img/Interação-perfil.png">
+      </div>
+    </header>
+
+    <nav class="sidenav">
+      <div class="logo">
+        <img src="img/icons/Nuvem-1.svg">
+        <img src="img/NuvemdePalavras.svg">
+      </div>
+      <ul>
+        <li>
+          <a class="selected" href="#"><img src="img/icons/Dashboard.svg">
+            <span>Controle Geral</span>
+          </a>
+        </li>
+        <li>
+          <a class="" href="nuvem.html"><img src="img/icons/nuvem-2.svg">
+            <span>Nuvem</span>
+          </a>
+        </li>
+        <li>
+          <a class="" href="filtro.html"><img src="img/icons/Filtro.svg">
+            <span>Filtros</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <h1 class="titulo-principal font-1-xxl">Controle Geral</h1>
+      <h3 class="font-1-l">Visualização Prévia</h3>
+      <div class="content">
+        <img src="img/NuvemPalavras.png">
+        <a class="botao-fullscreen flex-align" href="#">
+          <img src="img/icons/fullscreen.svg">
+          <span class="font-2-xs cor-a16">TELA CHEIA</span>
+        </a>
+      </div>
+
+      <div class="search-city">
+        <h1 class="search-h1 font-2-xl cor-c12">Pesquisa por Cidade</h1>
+        <hr>
+          <input class="pesquisa" type="search" placeholder="Digite o nome da Cidade">
+        <div class="result-word">
+          <h3>Palavras mais faladas </h3>
+        </div>
+      </div>
+
+      <div class="search-rs">
+        <h1 class="search-h1 font-2-xl cor-c12">Escolha a Rede Social</h1>
+        <hr>
+          <input class="pesquisa" type="search" placeholder="Digite o nome da Rede Social">
+        <div class="result-word">
+          <h3>Palavras mais faladas </h3>
+        </div>
+      </div>
+
+      <div class="filter">
+        <h1 class="font-2-xl">Palavras e Frases a serem bloqueadas</h1>
+        <div class="principal-filter-search">
+          <div class="filter-search">
+            <input type="search" placeholder="Digite palavras e frases a serem bloqueadas">
+            <img src="img/icons/Ok.svg">
+          </div>
+          <button class="font-2-l-b" type="submit">Adicionar</button>
+        </div>
+        <div class="filter-area">
+          <h3 class="font-2-l cor-a7">Palavras e frases bloqueadas</h3>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>

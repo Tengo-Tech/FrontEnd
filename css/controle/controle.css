@@ -1,0 +1,56 @@
+.search-city {
+  grid-column: 1 / 2;
+  border-radius: 10px;
+  border: 1px solid #B8B8B8;
+  background: #F0F0F0;
+  box-shadow: 0px 1px 15px 0px rgba(41, 41, 41, 0.10);
+  margin: 30px;
+}
+
+.search-h1 {
+  display: inline-block;
+  margin: 20px 0 30px 30px;
+}
+
+hr {
+  background: var(--text-color1);
+  max-width: 400px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.pesquisa {
+  background-image: url('/img/icons/IconePesquisa.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 30px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid #CCC;
+  width: 420px;
+  height: 60px;
+  outline: none;
+}
+
+.result-word {
+  background: #D9D9D9;
+  margin: 30px;
+  height: 470px;
+  padding: 30px;
+}
+
+.result-word h3 {
+  margin: 0 30px 0 0;
+  border-bottom: 1px solid #7AA6D9;
+}
+
+.search-rs {
+  grid-column: 2 / 3;
+  border-radius: 10px;
+  border: 1px solid #B8B8B8;
+  background: #F0F0F0;
+  box-shadow: 0px 1px 15px 0px rgba(41, 41, 41, 0.10);
+  margin: 30px;
+}
+
+/* Filter está na pasta de filtros */

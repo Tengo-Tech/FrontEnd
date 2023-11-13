@@ -1,0 +1,66 @@
+::-ms-reveal {
+  display: none;
+}
+
+body {
+  background: var(--c1);
+}
+
+.form {
+  height: 100vh;
+}
+
+.form-conteudo {
+  flex-direction: column;
+  width: 520px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--ca9);
+  background: var(--a13);
+}
+
+.subtitulo {
+  margin-top: -10px;
+  font-weight: 300;
+}
+
+form {
+  flex-direction: column;
+  gap: 30px;
+  margin: 60px 0 0 0;
+}
+
+.login {
+  background-image: url('../../img/icons/usuario1.svg');
+}
+
+.login-senha {
+  background-image: url('../../img/icons/Cadeado.svg');
+}
+
+.login,
+.login-senha {
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0 0 0 45px;
+  width: 400px;
+  height: 60px;
+  box-shadow: 3px 1px 1px 0px rgba(117, 122, 136, 0.10) inset;
+  border: 2px solid var(--a10);
+}
+
+.botao-entrar {
+  width: 410px;
+  height: 60px;
+  padding: 4px 182px;
+  background: linear-gradient(180deg, #162A41 0%, #0C1E32 100%);
+  border-radius: 10px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.botao-entrar:hover {
+  background: linear-gradient(180deg, #17304d 0%, #0d2540 100%);
+}

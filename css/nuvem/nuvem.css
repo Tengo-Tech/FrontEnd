@@ -1,0 +1,17 @@
+.down-pdf {
+  margin: 25px 0 25px 25px;
+  justify-self: start;
+  padding: 15px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #6BD376;
+  border: none;
+  color: #fff;
+}
+
+.down-pdf img {
+  margin-left: 10px;
+}
