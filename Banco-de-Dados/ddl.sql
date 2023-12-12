@@ -12,7 +12,7 @@ constraint fk_person foreign key(person_id)  references tb_person(id)
 
 create table tb_person(
 
-INT GENERATED ALWAYS AS IDENTITY Ge,
+INT GENERATED ALWAYS AS IDENTITY,
 name VARCHAR(255) not null,
 sur_name VARCHAR(255),
 cpf VARCHAR(255) not null,
