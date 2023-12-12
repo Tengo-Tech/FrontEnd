@@ -1,5 +1,5 @@
 create table tb_user(
- id GENERATED ALWAYS AS IDENTITY
+ id GENERATED ALWAYS AS IDENTITY,
  email VARCHAR(255) not null,
  password VARCHAR(255) not null,
  created_at TIMESTAMP,
